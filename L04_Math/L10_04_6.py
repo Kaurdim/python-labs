@@ -9,15 +9,16 @@ def all_sum():
 
     print('Сумма =', sum)
 
+
 def all_sum2():
     sum = 0
     a = 1
-    while (a != 0):
+    while a != 0:
         a = int(input('a='))
         sum += a
 
     print('Сумма =', sum)
 
+
 # all_sum()
 all_sum2()
-
