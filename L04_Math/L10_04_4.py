@@ -2,7 +2,7 @@ def numbers_difference():
     a = int(input('a = '))
     b = int(input('b = '))
     diff = 0
-    if (a > b):
+    if a > b:
         diff = a - b
     else:
         diff = b - a
